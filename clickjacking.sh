@@ -41,7 +41,7 @@ file_save()
 				echo "PoC not saved"
 				echo "${bold}${red}press ctrl+c to exit from the script${reset}"
 				firefox tmp_clickjacking/clickjacking.html
-				rm -r tmp_clickjacking
+				
 		esac
 }
 
